@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mei Anggit Rawati</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/live-resume.css">
+
+    <style>
+        * {box-sizing: border-box}
+       
+        .mySlides1 {display: none}
+        .mySlides2 {display: none}
+        .mySlides3 {display: none}
+        .mySlides4 {display: none}
+        .mySlides5 {display: none}
+        .mySlides6 {display: none}
+        .mySlides7 {display: none}
+        .mySlides8 {display: none}
+        .mySlides9 {display: none}
+        .mySlides10 {display: none}
+        .mySlides11 {display: none}
+        .mySlides12 {display: none}
+        .mySlides13 {display: none}
+
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+</head>
+
+<body>
+    <header>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
+            SHARE</button>
+        <nav class="collapsible-nav" id="collapsible-nav">
+            <a href="index.html" class="nav-link ">SUMMARY</a>
+            <!-- <a href="resume.html" class="nav-link">RESUME</a> -->
+            <a href="portfolio.html" class="nav-link active">PORTFOLIO</a>
+            <!-- <a href="contact.html" class="nav-link">CONTACT</a> -->
+        </nav>
+        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+    </header>
+    <div class="content-wrapper">
+        <aside>
+            <div class="profile-img-wrapper">
+                <img src="assets/images/saya.jpg" alt="profile">
+            </div>
+            <h1 class="profile-name">MEI ANGGIT RAWATI</h1>
+            <div class="text-center">
+                <span class="badge badge-white badge-pill profile-designation">Software Engineering</span>
+            </div>
+            <!-- <nav class="social-links">
+                <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-behance"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-dribbble"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-github"></i></a>
+            </nav> -->
+            <div class="widget">
+                <h5 class="widget-title">personal information</h5>
+                <div class="widget-content">
+                    <!-- <p>WEBSITE : http://meiagt.com/</p> -->
+                    <p>PHONE : +62 859 4206 3405</p>
+                    <p>MAIL : anggirawati47@gmail.com</p>
+                    <p>LOCATION : Tegal, Jawa Tengah</p>
+                    <!-- <button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
+                        class="btn-img">DOWNLOAD CV </button> -->
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">LANGUAGES</h5>
+                        <p>Indonesia : Native</p>
+                        <p>English : Not fluent</p>
+                    </div>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">INTERESTS</h5>
+                        <p>Travelling</p>
+                        <p>Explore Music</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="blog-section">
+                <h2 class="section-title">MY WORK</h2>
+
+                <div class="blog-posts-wrapper">
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/eformasi1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi E-Formasi ASN Kota Tegal</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#eformasi" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/diklat1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Diklat Politeknik Keselamatan Transportasi Jalan Kota Tegal</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#diklat" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/pagerbarang1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Website Kecamatan Pagerbarang Kabupaten Tegal</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#pgrb" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/genset1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Monitoring Genset Diskominfo Kota Tegal</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#genset" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/apotek1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Apotek & Rekam Medik di Ciledug Jawa Barat</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#apotek" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/puspita1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Management Perusahaan pada Perusahaan di Kuningan Jawa Barat</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#puspita" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/ims1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Management Perusahaan pada Perusahaan di Losari Brebes</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#big" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/tgr1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Management Kepegawaian & Presensi Bank TGR Tegal</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#tgr" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/smkmuh1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Management Kepegawaian & Presensi SMK Muhammadiyah Kramat</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#smkmuh" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/sim1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Management Kepegawaian & Presensi SMK Islamiyah Tegal</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#sim" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/pju1.png" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Aplikasi Smart Penerangan Jalan Umum<br> (not produced)</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#pju" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/wms1.jpg" alt="news 1" class="blog-post-thumbnail">
+                            <h5 class="blog-post-title">Warehouse Management System CEDEA</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#wms" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                    <article class="blog-post" align="center">
+                        <a href="#!" class="blog-post-link">
+                            <img src="assets/images/project/srikandi1.png" alt="news 1" class="blog-post-thumbnail" width="200px" height="400px">
+                            <h5 class="blog-post-title">Aplikasi Mobile Rujukan Ibu Hamil RSUD Brebes (SRIKANDI)<br> (not produced)</h5>
+
+                        </a>
+                        <p class="blog-post-meta">
+                            <a data-toggle="modal" href="#srikandi" class="btn btn-warning btn-share ml-auto mr-3 ml-md-0 mr-md-auto">Zoom</a>
+                        </p>
+                    </article>
+
+                   
+                </div>
+            </section>
+            <footer><a href="https://www.meiagt.com" target="_blank" rel="noopener noreferrer">meiagt.com</a>. All Rights Reserved 2023</footer>
+        </main>
+    </div>
+
+    <div class="modal fade" id="eformasi">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi E-Formasi ASN Kota Tegal</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides1">
+                          <div class="numbertext">1 / 2</div>
+                          <img src="assets/images/project/eformasi1.png" style="width:100%">
+                        </div>
+                        <div class="mySlides1">
+                          <div class="numbertext">2 / 2</div>
+                          <img src="assets/images/project/eformasi2.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="diklat">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Diklat Politeknik Keselamatan Transportasi Jalan Kota Tegal</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides2">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="assets/images/project/diklat1.png" style="width:100%">
+                        </div>
+                        <div class="mySlides2">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="assets/images/project/diklat2.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides2(-1)">❮</a>
+                        <a class="next" onclick="plusSlides2(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pgrb">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Website Kecamatan Pagerbarang Kabupaten Tegal</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides3">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="assets/images/project/pagerbarang1.png" style="width:100%">
+                        </div>
+                        <div class="mySlides3">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="assets/images/project/pagerbarang2.png" style="width:100%">
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="assets/images/project/pagerbarang3.png" style="width:100%">
+                          </div>
+                        <a class="prev" onclick="plusSlides3(-1)">❮</a>
+                        <a class="next" onclick="plusSlides3(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="genset">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Monitoring Genset Diskominfo Kota Tegal</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides4">
+                          <div class="numbertext">1 / 2</div>
+                          <img src="assets/images/project/genset1.png" style="width:100%">
+                        </div>
+                        <div class="mySlides4">
+                          <div class="numbertext">2 / 2</div>
+                          <img src="assets/images/project/genset2.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides4(-1)">❮</a>
+                        <a class="next" onclick="plusSlides4(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="apotek">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Apotek & Rekam Medik di Ciledug Jawa Barat</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides5">
+                          <div class="numbertext">1 / 1</div>
+                          <img src="assets/images/project/apotek1.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides5(-1)">❮</a>
+                        <a class="next" onclick="plusSlides5(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="puspita">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Management Perusahaan pada Perusahaan di Kuningan Jawa Barat</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides6">
+                          <div class="numbertext">1 / 1</div>
+                          <img src="assets/images/project/puspita1.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides6(-1)">❮</a>
+                        <a class="next" onclick="plusSlides6(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="big">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Management Perusahaan pada Perusahaan di Losari Brebes</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides7">
+                          <div class="numbertext">1 / 1</div>
+                          <img src="assets/images/project/ims1.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides7(-1)">❮</a>
+                        <a class="next" onclick="plusSlides7(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="tgr">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Management Kepegawaian & Presensi Bank TGR Tegal</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides8">
+                          <div class="numbertext">1 / 1</div>
+                          <img src="assets/images/project/tgr1.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides8(-1)">❮</a>
+                        <a class="next" onclick="plusSlides8(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="smkmuh">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Management Kepegawaian & Presensi SMK Muhammadiyah Kramat</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides9">
+                          <div class="numbertext">1 / 1</div>
+                          <img src="assets/images/project/smkmuh1.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides9(-1)">❮</a>
+                        <a class="next" onclick="plusSlides9(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sim">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Management Kepegawaian & Presensi SMK Islamiyah Tegal                </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides10">
+                          <div class="numbertext">1 / 1</div>
+                          <img src="assets/images/project/sim1.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides10(-1)">❮</a>
+                        <a class="next" onclick="plusSlides10(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pju">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Aplikasi Smart Penerangan Jalan Umum
+                    (not produced)</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides11">
+                          <div class="numbertext">1 / 2</div>
+                          <img src="assets/images/project/pju1.png" style="width:100%">
+                        </div>
+                        <div class="mySlides11">
+                            <div class="numbertext">2 / 2</div>
+                            <img src="assets/images/project/pju2.png" style="width:100%">
+                          </div>
+                        <a class="prev" onclick="plusSlides11(-1)">❮</a>
+                        <a class="next" onclick="plusSlides11(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="srikandi">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Warehouse Management System CEDEA
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides12" align="center">
+                          <div class="numbertext">1 / 5</div>
+                          <img src="assets/images/project/srikandi1.png" style="width:30%">
+                          <img src="assets/images/project/srikandi2.png" style="width:30%">
+                        </div>
+                        <div class="mySlides12" align="center">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="assets/images/project/srikandi3.png" style="width:30%">
+                            <img src="assets/images/project/srikandi4.png" style="width:30%">
+                          </div>
+                          <div class="mySlides12" align="center">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="assets/images/project/srikandi5.png" style="width:30%">
+                            <img src="assets/images/project/srikandi6.png" style="width:30%">
+                          </div>
+                          <div class="mySlides12" align="center">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="assets/images/project/srikandi7.png" style="width:30%">
+                            <img src="assets/images/project/srikandi8.png" style="width:30%">
+                          </div>
+                          <div class="mySlides12" align="center">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="assets/images/project/srikandi9.png" style="width:30%">
+                            <img src="assets/images/project/srikandi10.png" style="width:30%">
+                          </div>
+                        <a class="prev" onclick="plusSlides12(-1)">❮</a>
+                        <a class="next" onclick="plusSlides12(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="wms">
+        <div class="modal-dialog modal-lg">
+            <div class=" modal-content">
+                <div class="modal-header">
+                <h4 id="judul">Warehouse Management System CEDEA</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" id="bodymodal_userDetail">
+                    <div class="slideshow-container" id="detail_tabel">
+                        <div class="mySlides13">
+                          <div class="numbertext">1 / 6</div>
+                          <img src="assets/images/project/wms1.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides13">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="assets/images/project/wms2.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides13">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="assets/images/project/wms3.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides13">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="assets/images/project/wms4.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides13">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="assets/images/project/wms5.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides13">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="assets/images/project/wms6.jpg" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides13(-1)">❮</a>
+                        <a class="next" onclick="plusSlides13(1)">❯</a>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        function eformasi() {
+            
+
+            $('#detail_tabel').empty();
+            $('#judul').text('Aplikasi E-Formasi ASN Kota Tegal');
+            var html_code= '<div class="mySlides">';
+            html_code += '<div class="numbertext">1 / 3</div>';
+            html_code += '<img src="assets/images/project/pju1.png" style="width:100%"></div>';
+        
+            $('#detail_tabel').appendTo(html_code);
+            console.log(html_code);
+            // $.ajax({
+            //     type: "GET",
+            //     url: "<?php echo base_url() ?>Master/kegiatan_by_id",
+            //     data: "id=" + id,
+            //     dataType: "json",
+            //     cache: false,
+            //     success: function(response) {
+            //         $('#detail_tabel').empty();
+            //         $.each(response, function(i, item) {
+            //             var html_code= "<tr align='center'><td>" + item.judul + "</td></tr>";
+            //             html_code += "<tr align='center'><th><img width='300px' src='<?php echo base_url(); ?>uploads/berita/"+item.cover+"'></th></tr>";
+            //             html_code += "<tr><td>" + item.uraian + "</td></tr>";
+        
+            //             $('#detail_tabel').append(html_code);
+        
+            //             var img = '<?php echo '' ?>';
+            //             $('#judul').text(item.judul);
+            //             $('#isi').text(item.uraian);
+            //             $('#cover').text(img);
+            //         });
+            //     }
+            // });
+        }
+        </script> -->
+<script>
+    let slideIndex = 1;
+    showSlides1(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides1(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides1(slideIndex = n);
+    }
+    
+    function showSlides1(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides1");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+<script>
+    let slideIndex2 = 1;
+    showSlides2(slideIndex2);
+    
+    function plusSlides2(n) {
+        showSlides2(slideIndex2 += n);
+    }
+    
+    function currentSlide2(n) {
+        showSlides2(slideIndex2 = n);
+    }
+    
+    function showSlides2(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides2");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex2 = 1}    
+      if (n < 1) {slideIndex2 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex2-1].style.display = "block";  
+      dots[slideIndex2-1].className += " active";
+    }
+    </script>
+
+
+<script>
+    let slideIndex3 = 1;
+    showSlides3(slideIndex3);
+    
+    function plusSlides3(n) {
+        showSlides3(slideIndex3 += n);
+    }
+    
+    function currentSlide3(n) {
+        showSlides3(slideIndex3 = n);
+    }
+    
+    function showSlides3(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides3");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex3 = 1}    
+      if (n < 1) {slideIndex3 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex3-1].style.display = "block";  
+      dots[slideIndex3-1].className += " active";
+    }
+    </script>
+
+
+<script>
+    let slideIndex4 = 1;
+    showSlides4(slideIndex4);
+    function plusSlides4(n) {
+        showSlides4(slideIndex4 += n);
+    }
+    function currentSlide4(n) {
+        showSlides4(slideIndex4 = n);
+    }
+    function showSlides4(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides4");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex4 = 1}    
+      if (n < 1) {slideIndex4 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex4-1].style.display = "block";  
+      dots[slideIndex4-1].className += " active";
+    }
+    </script>
+
+<script>
+    let slideIndex5 = 1;
+    showSlides5(slideIndex5);
+    function plusSlides5(n) {
+        showSlides5(slideIndex5 += n);
+    }
+    function currentSlide5(n) {
+        showSlides5(slideIndex5 = n);
+    }
+    function showSlides5(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides5");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex5 = 1}    
+      if (n < 1) {slideIndex5 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex5-1].style.display = "block";  
+      dots[slideIndex5-1].className += " active";
+    }
+    </script>
+
+<script>
+    let slideIndex6 = 1;
+    showSlides6(slideIndex6);
+    function plusSlides6(n) {
+        showSlides6(slideIndex6 += n);
+    }
+    function currentSlide6(n) {
+        showSlides6(slideIndex6 = n);
+    }
+    function showSlides6(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides6");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex6 = 1}    
+      if (n < 1) {slideIndex6 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex6-1].style.display = "block";  
+      dots[slideIndex6-1].className += " active";
+    }
+    </script>
+
+<script>
+    let slideIndex7 = 1;
+    showSlides7(slideIndex7);
+    function plusSlides7(n) {
+        showSlides7(slideIndex7 += n);
+    }
+    function currentSlide7(n) {
+        showSlides7(slideIndex7 = n);
+    }
+    function showSlides7(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides7");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex7 = 1}    
+      if (n < 1) {slideIndex7 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex7-1].style.display = "block";  
+      dots[slideIndex7-1].className += " active";
+    }
+    </script>
+
+<script>
+    let slideIndex8 = 1;
+    showSlides8(slideIndex8);
+    function plusSlides8(n) {
+        showSlides8(slideIndex8 += n);
+    }
+    function currentSlide8(n) {
+        showSlides8(slideIndex8 = n);
+    }
+    function showSlides8(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides8");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex8 = 1}    
+      if (n < 1) {slideIndex8 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex8-1].style.display = "block";  
+      dots[slideIndex8-1].className += " active";
+    }
+    </script>
+
+<script>
+    let slideIndex9 = 1;
+    showSlides9(slideIndex9);
+    function plusSlides9(n) {
+        showSlides9(slideIndex9 += n);
+    }
+    function currentSlide9(n) {
+        showSlides9(slideIndex9 = n);
+    }
+    function showSlides9(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides9");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex9 = 1}    
+      if (n < 1) {slideIndex9 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex9-1].style.display = "block";  
+      dots[slideIndex9-1].className += " active";
+    }
+    </script>
+    
+    <script>
+        let slideIndex10 = 1;
+        showSlides10(slideIndex10);
+        function plusSlides10(n) {
+            showSlides10(slideIndex10 += n);
+        }
+        function currentSlide10(n) {
+            showSlides10(slideIndex10 = n);
+        }
+        function showSlides10(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides10");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex10 = 1}    
+          if (n < 1) {slideIndex10 = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex10-1].style.display = "block";  
+          dots[slideIndex10-1].className += " active";
+        }
+        </script>
+
+<script>
+    let slideIndex11 = 1;
+    showSlides11(slideIndex11);
+    function plusSlides11(n) {
+        showSlides11(slideIndex11 += n);
+    }
+    function currentSlide11(n) {
+        showSlides11(slideIndex11 = n);
+    }
+    function showSlides11(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides11");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex11 = 1}    
+      if (n < 1) {slideIndex11 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex11-1].style.display = "block";  
+      dots[slideIndex11-1].className += " active";
+    }
+    </script>
+
+<script>
+    let slideIndex12 = 1;
+    showSlides12(slideIndex12);
+    function plusSlides12(n) {
+        showSlides12(slideIndex12 += n);
+    }
+    function currentSlide12(n) {
+        showSlides12(slideIndex12 = n);
+    }
+    function showSlides12(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides12");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex12 = 1}    
+      if (n < 1) {slideIndex12 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex12-1].style.display = "block";  
+      dots[slideIndex12-1].className += " active";
+    }
+    </script>
+
+<script>
+    let slideIndex13 = 1;
+    showSlides13(slideIndex13);
+    function plusSlides13(n) {
+        showSlides13(slideIndex13 += n);
+    }
+    function currentSlide13(n) {
+        showSlides13(slideIndex13 = n);
+    }
+    function showSlides13(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides13");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex13 = 1}    
+      if (n < 1) {slideIndex13 = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex13-1].style.display = "block";  
+      dots[slideIndex13-1].className += " active";
+    }
+    </script>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/entry/jq.entry.min.js"></script>
+    <script src="assets/js/live-resume.js"></script>
+</body>
+
+</html>
